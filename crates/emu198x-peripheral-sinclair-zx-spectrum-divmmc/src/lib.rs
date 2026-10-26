@@ -53,7 +53,7 @@ mod sd_card;
 
 pub use sd_card::{SD_BLOCK_BYTES, SD_IMAGE_UNIT, SdCard, SdImageError};
 
-use common_sinclair_zx_spectrum::peripheral::{MemoryIntercept, Peripheral};
+use emu198x_bus_sinclair_zx_spectrum::{MemoryIntercept, Peripheral};
 
 /// The size of the EEPROM and of each RAM bank.
 pub const DIVMMC_PAGE_BYTES: usize = 0x2000;
